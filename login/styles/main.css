@@ -1,0 +1,97 @@
+/***
+  
+  Rajador Developer
+
+  ▒█▀▀█ ░█▀▀█ ░░░▒█ ░█▀▀█ ▒█▀▀▄ ▒█▀▀▀█ ▒█▀▀█ 
+  ▒█▄▄▀ ▒█▄▄█ ░▄░▒█ ▒█▄▄█ ▒█░▒█ ▒█░░▒█ ▒█▄▄▀ 
+  ▒█░▒█ ▒█░▒█ ▒█▄▄█ ▒█░▒█ ▒█▄▄▀ ▒█▄▄▄█ ▒█░▒█
+
+  GitHub: https://github.com/RajadorDev
+
+  Discord: rajadortv
+
+
+***/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+:root{
+	color-scheme: light;
+	prefers-color-scheme: light;
+}
+
+body {
+	background-color: #b6b6b6;
+	box-sizing: border-box;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	font-family: 'Poppins';
+}
+
+input[type="submit"]{
+	cursor: pointer;
+}
+
+.login-box{
+	margin-top: 10vh;
+	background-color: white;
+	color: #cccccc;
+	border-radius: 13px;
+	padding: 30px 50px;
+	display: flex;
+	flex-direction: column;
+	row-gap: 6px;
+	box-shadow: 3px 3px 3px #00000034;
+}
+ 
+.login-box h1 {
+	color: black;
+}
+
+.login-input{
+	background-color: white;
+	padding: 2.8px 3px;
+	height: 45px;
+	border: 1.5px solid #cccccc;
+	border-radius: 1px;
+	width: 300px;
+}
+
+
+.login-input:focus{
+	outline: none;
+	border: none;
+	border-bottom: 2.3px solid #66c7f5;
+}
+
+.submit-login{
+	background-color: #66c7f5;
+	color: white;
+	border: none;
+	border-radius: 7px;
+	width: 60%;
+	margin: 30px auto;
+	padding: 6px 0;
+	font-weight: bold;
+}
+
+.submit-login:focus{
+	outline: none;
+}
+
+.input-description{
+	color: #787878;
+	margin-top: 25px;
+}
+
+.error{
+	color: red;
+	font-weight: bold;
+}
+
